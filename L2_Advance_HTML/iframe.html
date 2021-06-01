@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframes</title>
+</head>
+<body>
+  <h1>iFrame</h1>
+  <!-- iframe is used to embed an external resource in our webpage -->
+
+  <!-- if we use target in <a> and name in <iframe> we can link both of them and display different things on same iframe-->
+  <ul>
+    <li><a target="frame1" href="./links.html">Links</a></li>
+    <li><a target="frame1" href="./innerLinks.html">Inner Links</a></li>
+  </ul>
+
+  <!-- Below example insert the links html page in our iframe html page with no broder -->
+  <!-- frameborder is used to enable or disable border in iframe -->
+  <iframe name="frame1" src="./links.html" frameborder="0" height="400" width="400"></iframe>
+
+  <h3>Embedded example page</h3>
+  <iframe src="http://example.com" frameborder="0" height="400" width="400"></iframe>
+</body>
+</html>
