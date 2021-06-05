@@ -1,0 +1,31 @@
+* {
+  font-family: "Lato";
+}
+
+h2 {
+  margin: 4rem 0 0 0;
+}
+
+div#aatr-container a[title] {
+  color: green;
+}
+
+div#batr-container a[href="http://net.tutsplus.com"] {
+  color: #1f6053;
+}
+
+div#catr-container a[href*="tuts"] {
+  color: #1f6053; /* nettuts green */
+} 
+
+div#datr-container a[href^="http"] {
+         color: red;
+      }  
+
+div#eatr-container a[href$=".jpg"] {
+         color: red;
+      } 
+
+div#fatr-container a[data-filetype="image"] {
+      color: red;
+    }
