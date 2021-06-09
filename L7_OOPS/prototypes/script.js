@@ -40,3 +40,18 @@ console.log(num.__proto__ == Number.prototype);
 console.log(bool.__proto__ == Boolean.prototype);
 console.log(arr.__proto__ == Array.prototype);
 console.log(fun.__proto__ == Function.prototype);
+
+// String.prototype inherits from Object.prototype 
+// typeof Object.create(Boolean.prototype) 
+
+console.log(str.charAt(4));
+console.log(typeof str.charAt);
+let str2 = "xyz";
+console.log(str.charAt == str2.charAt);
+
+str.charAt = function(){ return 'X'}; // does not makes a difference
+String.prototype.charAt = function() { return 'X'};
+console.log(str.charAt(1));
+
+// String.prototype contains all default string function
+// like charAt, indexOf, substring, slice, etc
