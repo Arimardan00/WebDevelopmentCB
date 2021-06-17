@@ -2,24 +2,15 @@ const express = require("express");
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
+app.set('view engine', 'hbs');
 
 let tasks = ["sample task"];
 
 app.get("/", (req, res) => {
-  let taskList = tasks.map((t) => `<li>${t}</li>`).join("\n");
-  res.send(`
-  <html>
-    <body>
-      <form action="/" method="POST">
-        <input type="text" name="newTask">
-        <button type="submit">ADD</button>
-      </form>
-      <ul>
-        ${taskList}
-      </ul>
-    </body>
-  </html>   
-  `);
+  res.render('home', {
+    title: "Todo List",
+    tasks
+  })
 });
 
 app.post('/', (req, res)=>{
