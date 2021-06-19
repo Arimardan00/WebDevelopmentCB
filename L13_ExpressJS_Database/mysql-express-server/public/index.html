@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script async defer src="./script.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Add a person</h1>
+  <form action="/api/persons" method="POST">
+    <input type="text" name="name" placeholder="name" id="inpName"> <br>
+    <input type="number" name="age" placeholder="age" id="inpAge"> <br>
+    <input type="text" name="city" placeholder="city" id="inpCity"> <br>
+    <button type="submit" id="btnSubmit">Submit</button>
+  </form>
+  <br>
+  <table border="1" cellspacing="10" cellpadding="10" id="tblPersons">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Sample Name</td>
+      <td>Sample Age</td>
+      <td>Sample City</td>
+    </tr>
+  </table>
+
+</body>
+</html>
