@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Selector</title>
+  </head>
+  <body>
+    <h2>X:visited and X:link</h2>
+    <div id="xvl-container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur
+        <a href="#">adipisicing</a> elit, sed do eiusmod
+        <a href="http://net.tutsplus.com">tempor</a> incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+
+    <h2>X:checked</h2>
+
+    <div id="xchk-container">
+      <form>
+        <input type="radio" name="rad" value="Radio Button" />
+        <label for="rad"> Radio Button</label>
+      </form>
+    </div>
+
+    <h2>X:not(selector)</h2>
+    <div id="xnot-container">
+      <div id="container">
+        <ul>
+          <li>
+            List Item
+            <ul>
+              <li>Child</li>
+            </ul>
+          </li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#"> Anchor Tag </a>
+          </li>
+          <li>
+            <a href="#"> Anchor Tag </a>
+          </li>
+          <li>
+            <a href="#"> Anchor Tag </a>
+          </li>
+          <li>
+            <a href="#"> Anchor Tag </a>
+          </li>
+        </ul>
+
+        <p>
+          Lorem ipsum dolor sit amet,
+          <a
+            href="http://www.google.com"
+            data-info="external"
+            title="Some title"
+            >consectetur</a
+          >
+          adipisicing elit, sed do
+          <a href="http://nettuts.com">Nettuts</a> tempor.
+        </p>
+        <p>
+          <a
+            href="http://d2o0t5hpnwv4c1.cloudfront.net/817_rubyNewbies1/preivew.png"
+            data-filetype="image"
+            >PNG Image</a
+          >
+          ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          <a href="#">adipisicing</a> elit, sed do eiusmod tempor.
+        </p>
+        <p>
+          Lorem ipsum <a href="http://net.tutsplus.com">Nettuts+</a> sit amet,
+          consectetur "<a
+            href="http://d2o0t5hpnwv4c1.cloudfront.net/839_git/preview.jpg"
+            data-info="external image"
+            >Getting Good with Git</a
+          >" elit, sed do eiusmod tempor.
+        </p>
+      </div>
+
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </div>
+    </div>
+
+    <h2>X::pseudoElement</h2>
+    <div id="xpsel-container">
+      <ul>
+        <li>
+          List Item
+          <ul>
+            <li>Child</li>
+          </ul>
+        </li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor.
+      </p>
+      <p>
+        <a
+          href="http://d2o0t5hpnwv4c1.cloudfront.net/817_rubyNewbies1/preivew.png"
+          data-filetype="image"
+          >PNG Image</a
+        >
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur
+        <a href="#">adipisicing</a> elit, sed do eiusmod tempor.
+      </p>
+      <p>
+        Lorem ipsum <a href="http://net.tutsplus.com">Nettuts+</a> sit amet,
+        consectetur "<a
+          href="http://d2o0t5hpnwv4c1.cloudfront.net/839_git/preview.jpg"
+          data-info="external image"
+          >Getting Good with Git</a
+        >" elit, sed do eiusmod tempor.
+      </p>
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </div>
+  </body>
+</html>

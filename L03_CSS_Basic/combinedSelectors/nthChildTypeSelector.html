@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nth Child and Type Selector</title>
+    <link rel="stylesheet" href="nthChildTypeSelector.css" />
+  </head>
+  <body>
+    <h2>X:nth-child(n)</h2>
+    <div id="xnch-container">
+      <ul>
+        <li>
+          List Item
+          <ul>
+            <li>Child</li>
+            <li>Child</li>
+            <li>Child</li>
+          </ul>
+        </li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor.
+      </p>
+      <p>
+        <a
+          href="http://d2o0t5hpnwv4c1.cloudfront.net/817_rubyNewbies1/preivew.png"
+          data-filetype="image"
+          >PNG Image</a
+        >
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur
+        <a href="#">adipisicing</a> elit, sed do eiusmod tempor.
+      </p>
+      <p>
+        Lorem ipsum <a href="http://net.tutsplus.com">Nettuts+</a> sit amet,
+        consectetur "<a
+          href="http://d2o0t5hpnwv4c1.cloudfront.net/839_git/preview.jpg"
+          data-info="external image"
+          >Getting Good with Git</a
+        >" elit, sed do eiusmod tempor.
+      </p>
+    </div>
+
+    <h2>X:nth-last-child(n)</h2>
+
+    <div id="xnlch-container">
+      <ul>
+        <li>
+          List Item
+          <ul>
+            <li>Child</li>
+            <li>Child</li>
+            <li>Child</li>
+          </ul>
+        </li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor. Lorem ipsum dolor sit
+        amet,
+        <a href="http://www.google.com" data-info="external" title="Some title"
+          >consectetur</a
+        >
+        adipisicing elit, sed do
+        <a href="http://nettuts.com">Nettuts</a> tempor.
+      </p>
+      <p>
+        <a
+          href="http://d2o0t5hpnwv4c1.cloudfront.net/817_rubyNewbies1/preivew.png"
+          data-filetype="image"
+          >PNG Image</a
+        >
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur
+        <a href="#">adipisicing</a> elit, sed do eiusmod tempor.
+      </p>
+      <p>
+        Lorem ipsum <a href="http://net.tutsplus.com">Nettuts+</a> sit amet,
+        consectetur "<a
+          href="http://d2o0t5hpnwv4c1.cloudfront.net/839_git/preview.jpg"
+          data-info="external image"
+          >Getting Good with Git</a
+        >" elit, sed do eiusmod tempor.
+      </p>
+    </div>
+
+    <h2>X:nth-of-type(n)</h2>
+    <div id="xntp-container">
+      <ul>
+        <li>
+          List Item
+          <ul>
+            <li>Child</li>
+            <li>Child</li>
+            <li>Child</li>
+          </ul>
+        </li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>List Items</li>
+        <li>List Items</li>
+        <li>List Items</li>
+      </ul>
+    </div>
+
+    <h2>X:nth-last-of-type(n)</h2>
+    <div id="xnltp-container">
+      <ul>
+        <li>
+          List Item
+          <ul>
+            <li>Child</li>
+            <li>Child</li>
+            <li>Child</li>
+          </ul>
+        </li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+        <li>
+          <a href="#"> Anchor Tag </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>List Items</li>
+        <li>List Items</li>
+        <li>List Items</li>
+      </ul>
+    </div>
+
+    <h2>X:first-child and X:last-child</h2>
+    <div id="xflch-container">
+      <ul>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+    </div>
+
+    <h2>X:only-child</h2>
+    <div id="xoch-container">
+      <div>
+        <p>My paragraph here.</p>
+      </div>
+
+      <div>
+        <p>Two paragraphs total.</p>
+        <p>Two paragraphs total.</p>
+      </div>
+    </div>
+
+    <h2>X:only-of-type</h2>
+    <div id="xot-container">
+      <div>
+        <p>My paragraph here.</p>
+        <ul>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+      </div>
+
+      <div>
+        <p>Two paragraphs total.</p>
+        <p>Two paragraphs total.</p>
+        <ul>
+          <li>List Item</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>X:first-of-type</h2>
+    <div id="xfot-container">
+      <div>
+        <p>My paragraph here.</p>
+        <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+        </ul>
+
+        <ul>
+          <li>List Item 3</li>
+          <li>List Item 4</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

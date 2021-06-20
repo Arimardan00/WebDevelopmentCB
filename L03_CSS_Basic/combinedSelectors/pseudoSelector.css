@@ -1,0 +1,35 @@
+* {
+  font-family: "Lato";
+}
+
+h2 {
+  margin: 4rem 0 0 0;
+}
+
+div#xvl-container a:link { color: red; }
+div#xvl-container a:visited { color: green; }
+
+div#xchk-container input[type=radio]:checked + label {
+  color: blue;
+}
+
+div#xnot-container div:not(#container) {
+      color: blue;
+   }
+
+div#xnot-container * *:not(p) {
+  color: green;
+}
+
+div#xpsel-container p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+div#xpsel-container p::first-letter {
+  float: left;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 2em;
+  padding-right: 2px;
+}
